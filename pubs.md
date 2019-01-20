@@ -4,9 +4,17 @@ title: pubs
 permalink: /pubs/
 ---
 
-I like speaking, and less so writing! Feel free to reach out if you are looking for speakers on security or privacy engineering!
+I like speaking, and less so writing. Feel free to reach out if you are looking for speakers on security or privacy engineering!
 
 Note: I will NOT sit on Yet Another Diversity Panel.
+
+### bio
+
+Sarah is an engineer on a privacy engineering team at Square. Her background includes 4+ years of industry experience in security/privacy infrastructure design and engineering, and 4 years of academic privacy research. She has a variety of speaking experience; highlights including organizing and presenting a 300+ person CTF workshop at Grace Hopper, and a series of funny lightning talks on infrastructure security and privacy challenges.
+
+She also has given talks as a hologram, and in general never takes herself seriously.
+
+She can be followed for cats and tech madness on Twitter: @worldwise001.
 
 ### talk list
 

@@ -40,7 +40,7 @@ header_pages:
  - projects.md
  - snippets.md
  - about.md
- - talks.md
+ - pubs.md
 
 plugins:
  - jekyll-feed

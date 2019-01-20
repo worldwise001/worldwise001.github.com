@@ -17,6 +17,7 @@ Note: I will NOT sit on Yet Another Diversity Panel.
 
 #### 2018
 
+* Grace Hopper - featured as a hologram in "Our Time" gallery
 * GDGSF IWD - The (Security-centric) Woman's Guide To The Galaxy
 * (internal) - Differential Privacy
 * sqr00t - You Can’t Secure What You Can’t See (repeat)

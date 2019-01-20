@@ -37,8 +37,10 @@ minima:
 header_pages:
  - index.md
  - guides.md
+ - projects.md
  - snippets.md
  - about.md
+ - talks.md
 
 plugins:
  - jekyll-feed

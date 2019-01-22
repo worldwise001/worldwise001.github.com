@@ -40,4 +40,4 @@ I haven't gotten terribly far yet, but I do have some working code to at least e
 
 That's all for now. If you'd like to follow along on my coding expeditions in rust for the rest of the sensors, all of it is on my github: [https://github.com/worldwise001/greenhouse](https://github.com/worldwise001/greenhouse) .
 
-Continue on to [Part 6](/2018/04/01/indoor-growing-project-part-6.html).
+Continue on to [Part 6](/2018/04/02/indoor-growing-project-part-6.html).

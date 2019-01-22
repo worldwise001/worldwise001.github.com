@@ -15,14 +15,12 @@ It ships from LA and so if you're in the state of California, it can arrive in 1
 
 It appears to be self-calibrating, which is really impressive to me for a cheap printer. I decided to print out the test model they had on the packaged SD card and took some pictures of the progress. It took just over an hour for printing after it had gotten to proper preheating temperature.
 
-![2018-03-03 12.25.37-1.jpg](/images/2018-03-04-new-3d-printer/2018-03-03-12-25-37-1.jpg =8064x) ![2018-03-03 12.46.22.jpg](/images/2018-03-04-new-3d-printer/2018-03-03-12-46-22.jpg =8064x)
+![2018-03-03 12.25.37-1.jpg](/images/2018-03-04-new-3d-printer/2018-03-03-12-25-37-1.jpg) ![2018-03-03 12.46.22.jpg](/images/2018-03-04-new-3d-printer/2018-03-03-12-46-22.jpg)
 
+![2018-03-03 13.03.07.jpg](/images/2018-03-04-new-3d-printer/2018-03-03-13-03-07.jpg) ![2018-03-03 13.03.25.jpg](/images/2018-03-04-new-3d-printer/2018-03-03-13-03-25.jpg)
 
+![2018-03-03 13.27.20.jpg](/images/2018-03-04-new-3d-printer/2018-03-03-13-27-20.jpg) ![2018-03-03 14.30.59.jpg](/images/2018-03-04-new-3d-printer/2018-03-03-14-30-59.jpg)
 
-![2018-03-03 13.03.07.jpg](/images/2018-03-04-new-3d-printer/2018-03-03-13-03-07.jpg =8064x) ![2018-03-03 13.03.25.jpg](/images/2018-03-04-new-3d-printer/2018-03-03-13-03-25.jpg =8064x)
-
-![2018-03-03 13.27.20.jpg](/images/2018-03-04-new-3d-printer/2018-03-03-13-27-20.jpg =8064x) ![2018-03-03 14.30.59.jpg](/images/2018-03-04-new-3d-printer/2018-03-03-14-30-59.jpg =8064x)
-
-![2018-03-03 14.40.23.jpg](/images/2018-03-04-new-3d-printer/2018-03-03-14-40-23.jpg =8064x)
+![2018-03-03 14.40.23.jpg](/images/2018-03-04-new-3d-printer/2018-03-03-14-40-23.jpg)
 
 Overall I am pretty happy with the results and ease of use of this device. The quick-start guide maybe could be a bit better and include some pictures for someone who is a complete beginner such as myself. But if you want a cheap small printer that has great results, I think this qualifies as an excellent starter printer. I am very impressed with how much 3D printing technology has overall improved over the past decade!

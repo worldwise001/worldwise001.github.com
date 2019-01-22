@@ -19,9 +19,9 @@ The plants are still growing. I've stopped taking pictures of them really. The m
 
 I took a class on how to bake bread! Specifically it was [this class at The Mill](http://www.joseybakerbread.com/classes/) in SF. I got to take home some starter sourdough culture in addition to a finished dough that I could bake myself. The culture has been named Steve.
 
-![2018-03-08 10.18.58](/images/2018-03-09-generic-update-when-things-go-wrong/2018-03-08-10-18-58.jpg =300x)
+![2018-03-08 10.18.58](/images/2018-03-09-generic-update-when-things-go-wrong/2018-03-08-10-18-58.jpg)
 
-![2018-03-08 22.56.13](/images/2018-03-09-generic-update-when-things-go-wrong/2018-03-08-22-56-13.jpg =300x)
+![2018-03-08 22.56.13](/images/2018-03-09-generic-update-when-things-go-wrong/2018-03-08-22-56-13.jpg)
 
 I finally finished setting up Linux on my laptop which should make it a tad easier to flash SD cards for use in the raspberry pis.
 
@@ -37,7 +37,7 @@ My garlic plant got mold on the surface of the soil! Thankfully it didn't spread
 
 As much as the 3D printer worked [really well](/2018/03/04/new-3d-printer.html) for the sample print, it turns out it's actually way harder than I thought to get 3D models to slice correctly to be sent to the printer. Proper slicing appears to be critical for a good print (on a cheaper printer). So far I have discovered I am really good at making nice plastic coasters (i.e. printing the bottom leveling raft before the main model is being printed) but that's about it. On 3D printing days, I'll probably try and stream the experimentation process so other people can follow along to see what works and doesn't work.
 
-![2018-03-08 23.17.05](/images/2018-03-09-generic-update-when-things-go-wrong/2018-03-08-23-17-05.jpg =300x)
+![2018-03-08 23.17.05](/images/2018-03-09-generic-update-when-things-go-wrong/2018-03-08-23-17-05.jpg)
 
 ![2018-03-08 23.17.24](/images/2018-03-09-generic-update-when-things-go-wrong/2018-03-08-23-17-24.jpg)
 

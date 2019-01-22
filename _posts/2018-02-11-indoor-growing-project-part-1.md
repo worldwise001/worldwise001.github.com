@@ -26,4 +26,4 @@ If you've noticed, the numbers shown on the labels show how many days till expec
 
 That's it for now. I'll be posting more on progress later over the next few weeks.
 
-Continue onto [Part 2](/2018/02/25/indoor-growing-project-part-2.html).
+Continue onto [Part 2](/2018/02/26/indoor-growing-project-part-2.html).

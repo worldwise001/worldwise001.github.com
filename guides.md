@@ -9,6 +9,7 @@ Here are some guides I've written up based on numerous interactions with people 
 Mandatory disclaimer that these are based on my personal experiences, which may not be the same as yours! So YMMV.
 
 * [Git in 5 seconds](/guides/git/)
+* [Baby ML](/guides/baby-ml/)
 
 WIP:
 

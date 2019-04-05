@@ -12,12 +12,12 @@ from sklearn.linear_model import LogisticRegression
 import json
 
 
-def vectorize(header, line):
+def vectorize_line(header, line):
     unfiltered = ['{}{}'.format(i[0], i[1]) for i in list(bigrams(line.strip()))]
     return [unfiltered.count(h) for h in header]
 
 
-def train(true_file, false_file):
+def vectorize_files(true_file, false_file):
     header_set = []
 
     true_list = []
@@ -49,26 +49,26 @@ def train(true_file, false_file):
     return header, X, y
 
 
-def load(vector_file):
-    with open(vector_file, 'r') as fp:
+def load(vectors_file):
+    with open(vectors_file, 'r') as fp:
         return json.load(fp)
 
 
-def save(vector_file, header, X, y):
-    with open(vector_file, 'w') as fp:
+def save(vectors_file, header, X, y):
+    with open(vectors_file, 'w') as fp:
         json.dump({'h': header, 'X': X, 'y': y}, fp)
 
 
 def run():
-    #header, X, y = train('emails.txt', 'not-emails.txt')
-    #save('vector.json', header, X, y)
+    #header, X, y = vectorize_files('emails.txt', 'not-emails.txt')
+    #save('vectors.json', header, X, y)
 
-    model = load('vector.json')
-    h = model['h']
-    X = model['X']
-    y = model['y']
+    vectors = load('vectors.json')
+    h = vectors['h']
+    X = vectors['X']
+    y = vectors['y']
     clf = LogisticRegression(random_state=0, solver='lbfgs', multi_class='multinomial').fit(X, y)
-    print(clf.predict([vectorize(h, 'noreply@gmail.com')]))
+    print(clf.predict([vectorize_line(h, 'noreply@gmail.com')]))
 
 
 if __name__ == '__main__':

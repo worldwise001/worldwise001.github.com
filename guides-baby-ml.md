@@ -6,6 +6,8 @@ permalink: /guides/baby-ml/
 
 Sometimes you, like me, forget how to actually use basic machine learning, so here is a scikit-learn starter kit for text in python.
 
+Note that even just 1MB of text data has the potential to generate about 300MB of nonsparse vectors, so saving the vectors directly here doesn't work for very large text datasets. It's more recommended to save the actual model in sparse mode (which I will save for another snippet/guide).
+
 ```
 from nltk import bigrams
 from sklearn.linear_model import LogisticRegression

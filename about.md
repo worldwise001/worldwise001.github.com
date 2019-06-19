@@ -6,7 +6,7 @@ permalink: /about/
 
 ### me
 
-I am currently a software engineer in privacy engineering (previously mobile security, security infrastructure). I used to do privacy research as a graduate student at University of Waterloo, and organize LAN parties as an undergraduate at SIUC.
+I am currently a software engineer in privacy engineering (previously mobile security, security infrastructure). I used to do privacy research as a graduate student at University of Waterloo, and organize LAN parties as an undergraduate at SIUC. Interested in hiring me? Check out [my resume](/resume.pdf).
 
 I like weird experiments and tinkering with strange systems. I also like knitting, cooking and painting. I sometimes [play (video) games](https://steamcommunity.com/id/worldwise001), and less frequently [stream my gameplay](https://www.twitch.tv/worldwise001).
 
@@ -27,7 +27,7 @@ My tor relay costs money! If you'd like to donate to my cause, feel free to use 
 * [Coinbase](https://www.coinbase.com/worldwise001)
 
 ### work
-I currently work at Square. You can see my full work history on [LinkedIn](https://www.linkedin.com/in/shharvey).
+I currently work at Square. You can see my full work history [as a resume](/resume.pdf) or on [LinkedIn](https://www.linkedin.com/in/shharvey).
 
 ### contact
 I may be reached at s at shh dot sh . My GPG Key is 1BE6 766C DC52 439A 5722 DCA2 BDE4 3806 8A2B D353.

@@ -30,6 +30,7 @@ header_pages:
  - pubs.md
 
 paginate: 5
+url: "https://www.shh.sh"
 
 plugins:
  - jekyll-feed

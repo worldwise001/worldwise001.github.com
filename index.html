@@ -9,8 +9,8 @@ title: home
     <!-- This loops through the paginated posts -->
     {% for post in paginator.posts %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y"}}</span>
         <h3><a class="post-link" href="{{ post.url }}">{{ post.title }}</a></h3>
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y"}}</span>
         <p>{{ post.excerpt }}</p>
       </li>
     {% endfor %}

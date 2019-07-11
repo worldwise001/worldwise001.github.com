@@ -3,7 +3,7 @@ remote_theme: jekyll/minima
 title: shh.sh
 author: worldwise001
 description: >
-  Lovingly crafted using Jekyll without trackers.
+  My personal site for documenting my building stuff and tinkering with electronics and computers.
 
 show_excerpts: true # set to true to show excerpts on the homepage
 
@@ -29,6 +29,11 @@ header_pages:
  - about.md
  - pubs.md
 
+paginate: 5
+
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
+ - jekyll-paginate
+ - jekyll-gist
+ - jekyll-sitemap

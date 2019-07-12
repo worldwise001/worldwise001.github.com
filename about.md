@@ -22,7 +22,7 @@ I run a [Tor relay](https://atlas.torproject.org/#details/39F096961ED2576975C866
 
 ### work stuff
 
-I wear, or have worn, a number of hats. My title is Software Engineer, but I frequently jump into devops or devsecops or secops problems. Outside of writing software day to day, my responsibilities also include designing software systems, evaluating security systems and processes, mentoring and advising engineers, and interviewing/screening possible candidates. I am fairly flexible on the tech stack, having experience in the following:
+I wear, or have worn, a number of hats. My title is Software Engineer, but I frequently jump into devops or devsecops or secops or SRE problems. Outside of writing software day to day, my responsibilities also include designing software systems, evaluating security systems and processes, mentoring and advising engineers, and interviewing/screening possible candidates. I am fairly flexible on the tech stack, having experience in the following:
 - writing/modifying Linux drivers
 - writing operating system core software
 - writing highly reliable backend services

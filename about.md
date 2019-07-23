@@ -41,4 +41,4 @@ You can see my full work history [as a resume](/resume.pdf) or on [LinkedIn](htt
 
 I may be reached at s at shh dot sh . My GPG Key is 1BE6 766C DC52 439A 5722 DCA2 BDE4 3806 8A2B D353.
 
-You can also interact with me on [Twitter](https://www.twitter.com/worldwise001)
+You can also interact with me on [Twitter](https://www.twitter.com/worldwise001).

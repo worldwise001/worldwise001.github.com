@@ -10,6 +10,7 @@ Mandatory disclaimer that these are based on my personal experiences, which may 
 
 * [Git in 5 seconds](/guides/git/)
 * [Baby ML](/guides/baby-ml/)
+* [Using your YubiKey to enable secure software development](/guides/yubikey/)
 
 WIP:
 

@@ -187,13 +187,6 @@ Save changes? (y/N) y
 $ git config --global commit.gpgsign true
 ```
 
-On Mac, git will fail because gpg gets confused about how to present the unlock prompt. You can fix this by configuring `pinentry-mac`:
-
-```
-$ brew install pinentry-mac
-$ echo 'pinentry-program /usr/local/bin/pinentry-mac' >> ~/.gnupg/gpg-agent.conf
-```
-
 For good measure, kill gpg-agent and restart your terminal:
 ```
 $ killall gpg-agent # forces gpg-agent to restart
@@ -207,7 +200,7 @@ Add the following to `~/.bash_profile` (mac-specific):
 ```
 GPG_AGENT_SOCKET="$HOME/.gnupg/S.gpg-agent.ssh"
 if [ ! -S $GPG_AGENT_SOCKET ]; then
-  gpg-agent --use-standard-socket --pinentry-program /usr/local/bin/pinentry --daemon >/dev/null 2>&1
+  gpg-agent --use-standard-socket --daemon >/dev/null 2>&1
   export GPG_TTY=$(tty)
 fi
 unset SSH_AGENT_PID

@@ -4,8 +4,6 @@ title: USENIX Enigma 2020 Submission
 permalink: /cfp/enigma2020
 ---
 
-# Submission
-
 ## Abstract
 
 Third-Party Integrations: we all have to use them, whether we like it or not. Various paradigm shifts in today's computing environment have contributed to this reality: microservice architecture is becoming increasingly common with the democratization of cloud computing power, and more and more organizations are realizing that it's often simply easy to pay for a particular service instead of building it from scratch. However, threat risk analysis about integration interactions--especially when it relates to the sharing of information--can be extremely time-consuming if not grueling for a lot of folks in this space; there often are not just financial contract reviews, but also legal contract reviews, vendor security assessments, security/privacy review processes, etc. and that's not including the potential complexity of the actual engineering integration! All of this can create friction and reduce the helpfulness of your security organization.

@@ -20,7 +20,7 @@ She can be followed for cats and tech humor on Twitter: @worldwise001.
 
 #### 2020
 
-* USENIX Enigma - TBD
+* [USENIX Enigma - TBD](/cfp/enigma2020)
 
 #### 2019
 

@@ -18,13 +18,16 @@ She can be followed for cats and tech humor on Twitter: @worldwise001.
 
 #### Upcoming
 
-* Grace Hopper - Money talks: How Fintech Innovation can Close the Gap in Financial Equality
+#### 2020
+
+* USENIX Enigma - TBD
 
 #### 2019
 
+* Grace Hopper - Money talks: How Fintech Innovation can Close the Gap in Financial Equality
 * OWASP SF Meetup - You Can’t Secure What You Can’t See (redux)
 * sqr00t - Anti-Privacy Anti-Patterns (repeat)
-* BSidesSF 2019 - [Anti-Privacy Anti-Patterns](https://www.youtube.com/watch?v=JVcT58mBUPk)
+* BSidesSF - [Anti-Privacy Anti-Patterns](https://www.youtube.com/watch?v=JVcT58mBUPk)
 * (internal) - The (Ano)Nymity Slider - why and how data redaction can fail
 
 #### 2018

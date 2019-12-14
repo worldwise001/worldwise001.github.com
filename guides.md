@@ -12,8 +12,8 @@ Mandatory disclaimer that these are based on my personal experiences, which may 
 * [Baby ML](/guides/baby-ml/)
 * [Using your YubiKey to enable secure software development](/guides/yubikey/)
 * [Security/Privacy resources](/guides/introsec/)
+* [Starting a career in tech](/guides/career-tech-start/)
 
 WIP:
 
 * [How to not fail at a PhD](/guides/phd/)
-* [So you've graduated. Now what?](/guides/newgrad/)

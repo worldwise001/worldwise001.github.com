@@ -29,7 +29,7 @@ I run some [Tor relays](/tor/).
 
 {% endfor %}
 
-[more...](/posts/)
+[more...](/log/)
 
 ### work stuff
 

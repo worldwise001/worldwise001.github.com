@@ -1,10 +1,9 @@
 ---
 layout: page
-title: about
-permalink: /about/
+title: home
 ---
 
-### me
+### whoami
 
 I am currently a software engineer in bay area, with 4+ years of industry experience, and 4+ years of not-very-relevant academic experience. My pronouns are she/her. I dislike photos of myself. I have strong opinions on software development and security/privacy but I value collaboration. I like really interesting and obscure facts, especially pertaining to cultural, culinary, linguistic, and unrelatedly, electronics/computer history.
 
@@ -19,6 +18,16 @@ I sometimes [play (video) games](https://steamcommunity.com/id/worldwise001), an
 I have [two cats](https://www.instagram.com/sprinks_n_izzy).
 
 I run some [Tor relays](/tor/).
+
+### what am i up to
+
+{% for post in site.posts limit:1 %}
+    <h3><a class="post-link" href="{{ post.url }}">{{ post.title }}</a></h3>
+      <span class="post-meta">{{ post.date | date: "%b %-d, %Y"}}</span>
+    <p>{{ post.excerpt }}</p>
+{% endfor %}
+
+[more...](/posts/)
 
 ### work stuff
 

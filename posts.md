@@ -1,6 +1,6 @@
 ---
 layout: default
-title: home
+title: posts
 ---
 <div class="wrapper">
   <div class="home">

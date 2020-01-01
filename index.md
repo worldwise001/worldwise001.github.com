@@ -21,9 +21,12 @@ I run some [Tor relays](/tor/).
 ### what am i up to
 
 {% for post in site.posts limit:1 %}
-    <h3><a class="post-link" href="{{ post.url }}">{{ post.title }}</a></h3>
-      <span class="post-meta">{{ post.date | date: "%b %-d, %Y"}}</span>
-    <p>{{ post.excerpt }}</p>
+#### [{{ post.title }}]({{ post.url }})
+
+{{ post.date | date: "%b %-d, %Y" }}
+
+{{ post.excerpt }}
+
 {% endfor %}
 
 [more...](/posts/)

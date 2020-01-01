@@ -4,13 +4,11 @@ title: tor
 permalink: /tor/
 ---
 
-# \*.tor.shh.sh are Tor Exit Routers
-
-Most likely you are accessing this website because you had some issue with
-the traffic coming from these IPs. These routers are part of the
+Most likely you are accessing this page because you had some issue with
+the traffic originating from **\*.tor.shh.sh**. These routers are part of the
 [Tor Anonymity Network](https://www.torproject.org/), which is
 dedicated to [providing privacy](https://www.torproject.org/about/overview) to
-people who need it most: average computer users. This
+people who need it most: average computer users. The
 router IPs should be generating no other traffic, unless it has been
 compromised.
 

@@ -18,10 +18,7 @@ I sometimes [play (video) games](https://steamcommunity.com/id/worldwise001), an
 
 I have [two cats](https://www.instagram.com/sprinks_n_izzy).
 
-I run some Tor relays:
-- [non-exit, fallback directory](https://metrics.torproject.org/rs.html#details/39F096961ED2576975C866D450373A9913AFDC92)
-- [exit 1](https://metrics.torproject.org/rs.html#details/D7082DB97E7F0481CBF4B88CA5F5683399E196A3)
-- exit 2 tbd
+I run some [Tor relays](/tor/).
 
 ### work stuff
 

@@ -3,8 +3,7 @@ layout: default
 title: posts
 ---
 <div class="wrapper">
-  <div class="home">
-    <h2 class="post-list-heading">Posts</h2>
+    <h1 class="post-title">posts</h2>
     <ul class="post-list">
     <!-- This loops through the paginated posts -->
     {% for post in paginator.posts %}
@@ -41,6 +40,5 @@ title: posts
     {% else %}
       <span>Next &raquo;</span>
     {% endif %}
-  </div>
   {% endif %}
 </div>

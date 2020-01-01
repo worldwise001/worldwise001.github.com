@@ -8,9 +8,9 @@ I like speaking, and less so writing. Feel free to reach out if you are looking 
 
 ### bio
 
-Sarah is a software engineer on a privacy engineering team at Square. Her background includes 4+ years of industry experience in security/privacy infrastructure design and engineering, and 4 years of academic privacy research. She has a variety of event organizing and speaking experience; highlights include speaking at and co-organizing BSidesSF 2019, organizing and presenting a 300+ person CTF workshop at Grace Hopper, and giving a series of funny lightning talks on infrastructure security and privacy challenges. She holds a Bachelor's of Computer Science from Southern Illinois University - Carbondale.
+Sarah is a software engineer on a privacy engineering team at Square. Her background includes 4+ years of industry experience in security/privacy infrastructure design and engineering, and 4 years of academic privacy research. Some project highlights include: designing and building simpler purpose-driven access controls for dataset access by analysts; designing and building new egress controls linked to vendor contracts and migrating the whole engineering org of 100+ teams to this system; and otherwise working with and maintaining various secrets management and payments cryptography services at scale at Square. Her current focus is designing and building security and privacy visibility tools to aid in risk modeling and development of new access control mechanisms.
 
-She also has given talks as a hologram, and in general never takes herself seriously.
+She's also given various talks about these topics. For fun, she is one of the lead organizers of BSidesSF, a local 2000+attendee security con in San Francisco.
 
 She can be followed for cats and tech humor on Twitter: @worldwise001.
 

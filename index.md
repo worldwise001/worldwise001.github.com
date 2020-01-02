@@ -1,12 +1,14 @@
 ---
 layout: page
-title: home
+title: about
 ---
 ### whoami
 
 I am currently a software engineer in bay area, with 4+ years of industry experience, and 4+ years of not-very-relevant academic experience. My pronouns are she/her. I dislike photos of myself. I have strong opinions on software development and security/privacy but I value collaboration. I like really interesting and obscure facts, especially pertaining to cultural, culinary, linguistic, and unrelatedly, electronics/computer history.
 
 ### fun stuff
+
+![messy desk](/images/desk.jpg)
 
 For fun I work on hobbyist electronics and 3D printing. Sometimes I will do hobbyist software projects, but that's rare. I also enjoy cooking and arts/crafts.
 

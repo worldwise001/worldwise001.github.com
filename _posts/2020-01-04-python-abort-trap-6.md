@@ -168,6 +168,6 @@ We didn't have a problem with `libssl` yet, but better safe than sorry!
 
 ### Merge and release
 
-As of this writing, I am happy to say that the fix was merged shortly after I [made the PR](https://github.com/wbond/oscrypto/issues/35), and [released in v1.1.1](https://github.com/wbond/oscrypto/issues/35#issuecomment-570789336) of oscrypto! Future users should no longer be running into this problem :).
+As of this writing, I am happy to say that the fix was merged shortly after I [made the PR](https://github.com/wbond/oscrypto/pull/36), and [released in v1.1.1](https://github.com/wbond/oscrypto/issues/35#issuecomment-570789336) of oscrypto! Future users should no longer be running into this problem :).
 
 Thank you for reading!

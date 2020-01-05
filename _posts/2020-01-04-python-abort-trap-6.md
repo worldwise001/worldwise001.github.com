@@ -166,6 +166,16 @@ libssl.44.dylib:libressl-2.6
 
 We didn't have a problem with `libssl` yet, but better safe than sorry!
 
+### Testing the fix
+
+This was a little bit tricky, due to the fact that this was in a library pulled as a dependency. So to test this, I cloned a copy of the repo down, added my fix, and installed from that local copy by installing it as an egg:
+
+```
+pip install file:///Users/shh/Development/github/oscrypto#egg=oscrypto
+```
+
+Running the debugger again in fact confirms that the fix works!
+
 ### Merge and release
 
 As of this writing, I am happy to say that the fix was merged shortly after I [made the PR](https://github.com/wbond/oscrypto/pull/36), and [released in v1.1.1](https://github.com/wbond/oscrypto/issues/35#issuecomment-570789336) of oscrypto! Future users should no longer be running into this problem :).

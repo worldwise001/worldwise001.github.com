@@ -101,3 +101,7 @@ determine if a given IP address is actually a Tor exit server. Please
 be considerate
 when using these options. It would be unfortunate to deny all Tor users access
 to your site indefinitely simply because of a few bad apples.
+
+### Support
+
+If you want to help support the running of high-bandwidth tor infrastructure, feel free to contribute on [Patreon](https://www.patreon.com/join/worldwise001/checkout?rid=5169021)

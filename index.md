@@ -4,21 +4,23 @@ title: about
 ---
 ### whoami
 
-I am currently a software engineer in bay area, with 4+ years of industry experience, and 4+ years of not-very-relevant academic experience. My pronouns are she/her. I dislike photos of myself. I have strong opinions on software development and security/privacy but I value collaboration. I like really interesting and obscure facts, especially pertaining to cultural, culinary, linguistic, and unrelatedly, electronics/computer history.
+I am currently a software engineer in bay area, with 5+ years of industry experience, and 4+ years of not-very-relevant academic experience. My pronouns are she/her. I dislike photos of myself. I have strong opinions on software development and security/privacy but I value collaboration. I like really interesting and obscure facts, especially pertaining to cultural, culinary, linguistic, and unrelatedly, electronics/computer history.
 
 ### fun stuff
 
 ![messy desk](/images/desk.jpg)
 
-For fun I work on hobbyist electronics and 3D printing. Sometimes I will do hobbyist software projects, but that's rare. I also enjoy cooking and arts/crafts.
+For fun I work on hobbyist software projects, electronics and 3D printing. I also enjoy cooking and arts/crafts.
 
-Some current projects include building a nixie doom clock and some custom housing for the timelapse cameras for my 3D printer.
+Some current projects include building a service to analyze linkages between research papers, a nixie doom clock and some custom housing for the timelapse cameras for my 3D printer. In the future when I move back to Canada, I intend to document my dad's expertise and work on restoring old TVs/radios.
 
 I sometimes [play (video) games](https://steamcommunity.com/id/worldwise001), and less frequently [stream my gameplay](https://www.twitch.tv/worldwise001).
 
 I have [two cats](https://www.instagram.com/sprinks_n_izzy).
 
 I run some [Tor relays](/tor/).
+
+I'm already paid pretty well but if you want to chip in to help support some of this infrastructure/work, you can throw a dollar over on [Patreon](https://www.patreon.com/worldwise001).
 
 ### what am i up to
 

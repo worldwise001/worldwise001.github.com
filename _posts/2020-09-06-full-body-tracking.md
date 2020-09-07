@@ -6,15 +6,11 @@ title: Streaming with Full-Body Tracking in VR
 
 ![Motion Capture of Miku playing Beat Saber](/images/2020-09-06-full-body-tracking/preview.gif)
 
-**If you are looking for instructions on how to set up Full Body Tracking with the HTC Vive, you can skip to the following sections:**
-- HTC Vive Trackers Setup
-- Goodbye Custom Mods; Hello LIV
-
 ## Introduction
 
 I've been a huge fan of [VR](https://en.wikipedia.org/wiki/Virtual_reality) ever since we saw some of the first few consumer products hit the market in around 2015/2016, and so back then I got myself a HTC Vive headset and controllers and upgraded aspects of my gaming PC to accommodate the more strenuous requirements at the time. The game [Beat Saber](https://store.steampowered.com/app/620980/Beat_Saber/) has particularly piqued my interest (in addition to a few other discoveries such as [Space Pirate Trainer](https://store.steampowered.com/app/418650/Space_Pirate_Trainer/), [SUPERHOT](https://store.steampowered.com/app/322500/SUPERHOT/), and [Pistol Whip](https://store.steampowered.com/app/1079800/Pistol_Whip/)). I also like occasionally streaming my ventures on [Twitch](https://www.twitch.tv/worldwise001). However there are some significant differences when trying to stream from the perspective of a typical keyboard+mouse/controller non-VR game, versus from the perspective of a controller/tracker VR game.
 
-## Current VR Setup
+### Current VR Setup
 
 The setup I've had for some time is an original HTC Vive Headset from around 2016, complete with the 2016 era controllers. It comes with two lightboxes, which are used to track the position of the headset and controllers with a remarkable amount of accuracy and smoothness.
 
@@ -28,7 +24,7 @@ The VR headset itself supports a resolution of 2160×1200, which is about 1080×
 
 ![Gaming Desktop](/images/2020-09-06-full-body-tracking/computer.png)
 
-## Streaming VR vs non-VR
+### Streaming VR vs non-VR
 
 All the VR games generally have a non-VR window that is displayed on the desktop monitor. You can easily capture that output using some popular off-the-shelf software, such as OBS. The view is somewhat indicative of what's visible in the headset, usually from one eye, but of course unless the game supports adjusting the FOV, the default FOV has a hard time showing everything that's going on. There's also the problem of, unlike controlled in a mouse/keyboard/controller situation, human bodies actually sometimes have very jerky movement. As the wearer of the headset you don't notice since your eyes naturally locks onto targets while you move, however for external viewers it can be very disorienting.
 
@@ -101,7 +97,7 @@ Within OBS or StreamLabs, you have the opportunity to set up different Scenes; t
 
 Speaking of widgets...
 
-#### Setting up Beat Saber Visual Stats in Stream
+### Setting up Beat Saber Visual Stats in Stream
 
 ![Cropped visual of Beat Saber stats during play](/images/2020-09-06-full-body-tracking/beatsaber-stats.gif)
 
@@ -125,11 +121,11 @@ Good luck and happy VRing!
 ---
 
 
-## PostScript: Things that didn't work, i.e. modding Beat Saber directly
+## PostScript: Things that didn't work
 
 The first thought I had was trying to figure out how to get a third-person camera view working with Beat Saber. I had seen some folks demonstrate that capability on YouTube in the past, so I knew it was possible, and I figured it was through modding of some kind since modding is fairly popular in that community.
 
-#### ModAssistant
+### ModAssistant
 
 There are a few different guides to aid first-time modders, including the [BSMG Wiki](https://bsmg.wiki/pc-modding.html) and [Beast Saber](https://bsaber.com/installing-the-mod-guide-necessary-for-any-custom-songs/); I used some combination of these guides. While many claim that you can technically set everything up manually, what you probably want to use is a piece of software called [ModAssistant](https://github.com/Assistant/ModAssistant). I was remarkably surprised at how easy this was to set up. You download the [latest release](https://github.com/Assistant/ModAssistant/releases), and simply run the executable. It doesn't actually install anything, so keep that executable aside from your Downloads folder if you don't want to lose it.
 
@@ -148,7 +144,7 @@ An important caveat is that the Beat Saber releases change semi-frequently, and 
 - Open up Steam again and isntall Beat Saber.
 - Repeat the above steps to reinstall mods.
 
-#### Setting up CameraPlus
+### Setting up CameraPlus
 
 CameraPlus is a Beat Saber mod to configure custom cameras (specifically for popular third-person cameras) to view the player in Beat Saber. It commonly is also used in tandem with Custom Avatars. Setting up CameraPlus is only partially intuitive. It's easy to install through [ModAssistant](https://github.com/Assistant/ModAssistant), as shown in the screenshot above, but it does take some finagling to get the view working as you intended. Some of the gotchas I ran into include:
 
@@ -166,7 +162,7 @@ If you're not happy with the Third-Person camera view, you can put on the VR hea
 
 At the end of the day, I didn't end up using CameraPlus for my streaming since I found LIV to be slightly easier to set up. But more on that later.
 
-#### Setting up Custom Avatars
+### Setting up Custom Avatars
 
 The [Beat Saber Custom Avatars](https://github.com/nicoco007/BeatSaberCustomAvatars) mod is intended to pair with [CameraPlus](https://github.com/Snow1226/CameraPlus) to provide a representation of your person holding the sabers in-game. Unfortunately for some reason this isn't installed through [ModAssistant](https://github.com/Assistant/ModAssistant), so you have to follow the instructions yourself. Note you probably don't need to manually install [DynamicOpenVR](https://github.com/nicoco007/DynamicOpenVR/releases), since that is provided by ModAssistant. However you do need to download and install (read: extract the contents) of [Custom Avatars](https://github.com/nicoco007/BeatSaberCustomAvatars/releases) in your Beat Saber install directory, i.e. usually `<your steam install folder>/steamapps/common/Beat Saber`.
 
@@ -180,7 +176,7 @@ There's one problem with using the Template Avatar and that's this:
 
 ![Beat Saber playthrough using Template Avatar](/images/2020-09-06-full-body-tracking/beatsaber-boring.gif)
 
-#### Emulating Vive Trackers with Kinect
+### Emulating Vive Trackers with Kinect
 
 *Note: this does not use LIV, and sets up virtual vive trackers using a Kinect. It probably is not what you want!*
 

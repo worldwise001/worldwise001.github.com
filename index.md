@@ -4,7 +4,7 @@ title: about
 ---
 ### whoami
 
-I am currently a software engineer doing security/privacy stuff in bay area. My pronouns are she/her. I dislike photos of myself. I have strong opinions on software development and security/privacy but I value collaboration. I like really interesting and obscure facts, especially pertaining to cultural, culinary, linguistic, and unrelatedly, electronics/computer history.
+I am currently a software engineer doing security/privacy stuff in toronto (formerly bay area). My pronouns are she/her. I dislike photos of myself. I have strong opinions on software development and security/privacy but I value collaboration. I like really interesting and obscure facts, especially pertaining to cultural, culinary, linguistic, and unrelatedly, electronics/computer history.
 
 ### fun stuff
 
@@ -12,9 +12,9 @@ I am currently a software engineer doing security/privacy stuff in bay area. My 
 
 For fun I work on hobbyist software projects, electronics and 3D printing. I also enjoy cooking and arts/crafts.
 
-Some current projects include building a service to analyze linkages between research papers, a nixie doom clock and some custom housing for the timelapse cameras for my 3D printer. In the future when I move back to Canada, I intend to document my dad's expertise and work on restoring old TVs/radios.
+Some current projects include building a service to analyze linkages between research papers, a nixie doom clock and some custom housing for the timelapse cameras for my 3D printer. In the future when everything reopens, I intend to document my dad's expertise and work on restoring old TVs/radios.
 
-I sometimes [play (video) games](https://steamcommunity.com/id/worldwise001), and less frequently [stream my gameplay](https://www.twitch.tv/worldwise001).
+I sometimes [play (video) games](https://steamcommunity.com/id/worldwise001), and sometimes [stream my gameplay](https://www.twitch.tv/worldwise001).
 
 I have [cat(s)](https://www.instagram.com/shh_furbabies).
 
@@ -37,7 +37,7 @@ I'm already paid pretty well but if you want to chip in to help support some of 
 
 ### work stuff
 
-I wear, or have worn, a number of hats. My title is Software Engineer, but I frequently jump into devops or devsecops or secops or SRE problems. Outside of writing software day to day, my responsibilities also include designing software systems, evaluating security systems and processes, mentoring and advising engineers, and interviewing/screening possible candidates. I am fairly flexible on the tech stack, having experience in the following:
+I wear, or have worn, a number of hats. My title is Security Engineer, but I frequently jump into devops or devsecops or secops or SRE problems. Outside of writing software day to day, my responsibilities also include designing software systems, evaluating security systems and processes, mentoring and advising engineers, and interviewing/screening possible candidates. I am fairly flexible on the tech stack, having experience in the following:
 - writing/modifying Linux drivers
 - writing operating system core software
 - writing highly reliable backend services

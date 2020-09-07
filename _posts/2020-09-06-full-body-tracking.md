@@ -50,6 +50,7 @@ It's fairly easy to set up a single HTC Vive Tracker. It's harder to set up 3. K
 - Right click on Tracker A in SteamVR, select "pair Tracker"
 - Hold button on Tracker A for 4 seconds until blue light is flashing
 - Tracker will pair (sometimes can take 2-3 tries, be patient)
+- Label the Tracker correctly in Steam (as left foot, right foot, or waist!)
 - Turn off Tracker A (right click in SteamVR and power off Tracker. If you do it by holding the button down for six seconds 'till it powers off you may force it to un-pair because it will cycle through the pairing process again)
 - UNPLUG TRACKER A DONGLE
 - Plug in Tracker B Dongle and repeat all steps with Trackers B, and then C
@@ -63,6 +64,10 @@ If you have lost track of Tracker A, B, etc. I recommend labeling your dongles a
 
 R = Right foot, L = Left food, W = Waist.
 
+You'll of course want to correctly label each tracker as you add them, since otherwise it's basically impossible to distinguish which from which.
+
+![Tracker configuration/labeling in Steam VR](/images/2020-09-06-full-body-tracking/steam-tracker-config.png)
+
 ## Setting up LIV
 
 I spent a lot of time trying to get avatar setup with Beat Saber back in April 2020. At the time I was armed with only a Kinect, which provided emulated Vive trackers to try and make the feet and waist visible to Beat Saber Custom Avatar. All the results at the time were extremely poor; the avatar would twist itself/get mangled, which was just not a good look. I had to start thinking about moving soon after, so I dropped that project.
@@ -72,6 +77,10 @@ Since then, I got the HTC Vive Trackers and attempted the whole setup process ag
 The [guide](https://guide.liv.tv/What-is-LIV-and-what-do-we-do-a1a2ba8313454e28aca16c989283c334) is fairly straightforward regarding setup. You have [install the LIV driver](https://guide.liv.tv/Install-LIV-Driver-b7e903e78867413285e6692e9251350a) which provides more virtual trackers into SteamVR, and typically you also need to [start the compositor](https://guide.liv.tv/Create-Avatar-Virtual-Camera-Profile-c09654baa68a45ffbbc8ad69460ccbd8) any time you want to stream. The compositor provides a nice window separate from the game window and separate from the Steam VR mirror display. For this reason I recommend disabling the Steam VR mirror display, and to reduce the resolution of the native game mirroring if you don't want to stress out your video card.
 
 ![Disable Steam Room VR Mirroring](/images/2020-09-06-full-body-tracking/steam-vr-no-room.gif)
+
+To pull up the LIV menu, you need to stare at and point at the LIV icon floating on the ground.
+
+![Pulling up LIV Config in Headset](/images/2020-09-06-full-body-tracking/liv-config-0.gif)
 
 Adding and configuring an avatar is very easy with LIV. I recommend for each new play session to re-calibrate your avatar to the trackers, since you're likely putting on the trackers slightly differently each time, and otherwise it will distort your avatar to viewers.
 
@@ -86,6 +95,10 @@ If you are wanting to fiddle with the LIV camera settings I recommend using a ga
 ![Configuring LIV Camera Part 2](/images/2020-09-06-full-body-tracking/liv-config-2.gif)
 
 ![Configuring LIV Camera Part 3](/images/2020-09-06-full-body-tracking/liv-config-3.gif)
+
+When you're done, you can close the LIV menu by staring and pointing at the ground again.
+
+![Dismissing the LIV Config in Headset](/images/2020-09-06-full-body-tracking/liv-config-4.gif)
 
 ## Streaming with StreamLabs OBS
 
@@ -181,5 +194,3 @@ There's one problem with using the Template Avatar and that's this:
 *Note: this does not use LIV, and sets up virtual vive trackers using a Kinect. It probably is not what you want!*
 
 TBD, but it's gnarly.
-
-

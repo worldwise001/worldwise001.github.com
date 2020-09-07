@@ -2,6 +2,8 @@
 author: worldwise001
 layout: post
 title: The Curious Case of Python, Catalina, Snowflake, and Abort Trap 6
+description: Some time ago I had upgraded my work laptop from Mojave to Catalina. The result of that, as a lot of you probably know, is that due to the fact that it now only supports 64-bit applicatons this meant a lot of apps/libraries stopped working, complaining of mismatched dylibs.
+image: /images/2020-01-04-python-abort-trap-6/abort-trap-6.png
 ---
 
 ![Python Quit Unexpectedly Dialog - Details](/images/2020-01-04-python-abort-trap-6/abort-trap-6.png)

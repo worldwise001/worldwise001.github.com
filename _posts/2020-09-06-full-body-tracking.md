@@ -2,6 +2,8 @@
 author: worldwise001
 layout: post
 title: Streaming with Full-Body Tracking in VR
+description: I've been a huge fan of VR ever since we saw some of the first few consumer products hit the market in around 2015/2016, and so back then I got myself a HTC Vive headset and controllers and upgraded aspects of my gaming PC to accommodate the more strenuous requirements at the time.
+image: /images/2020-09-06-full-body-tracking/preview.gif
 ---
 
 ![Motion Capture of Miku playing Beat Saber](/images/2020-09-06-full-body-tracking/preview.gif)

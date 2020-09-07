@@ -20,7 +20,9 @@ The setup I've had for some time is an original HTC Vive Headset from around 201
 
 The VR headset itself supports a resolution of 2160×1200, which is about 1080×1200 per eye. To support this sort of resolution, you generally needed a pretty beefy graphics card at the time, so here mine is supported by a GTX 1080.
 
-![Lightbox 1](/images/2020-09-06-full-body-tracking/lightbox1.png) ![Lightbox 2](/images/2020-09-06-full-body-tracking/lightbox2.png)
+![Lightbox 1](/images/2020-09-06-full-body-tracking/lightbox1.png)
+
+![Lightbox 2](/images/2020-09-06-full-body-tracking/lightbox2.png)
 
 ![HTC Vive Headset and Controllers](/images/2020-09-06-full-body-tracking/headset.png)
 
@@ -38,80 +40,7 @@ Compare that to this of Halo: Reach where you can get a better field perspective
 
 ![Desktop Capture of Halo: Reach](/images/2020-09-06-full-body-tracking/halo-reach.gif)
 
-## Adding Mods to Beat Saber
-
-The first thought I had was trying to figure out how to get a third-person camera view working with Beat Saber. I had seen some folks demonstrate that capability on YouTube in the past, so I knew it was possible, and I figured it was through modding of some kind since modding is fairly popular in that community.
-
-#### ModAssistant
-
-There are a few different guides to aid first-time modders, including the [BSMG Wiki](https://bsmg.wiki/pc-modding.html) and [Beast Saber](https://bsaber.com/installing-the-mod-guide-necessary-for-any-custom-songs/); I used some combination of these guides. While many claim that you can technically set everything up manually, what you probably want to use is a piece of software called [ModAssistant](https://github.com/Assistant/ModAssistant). I was remarkably surprised at how easy this was to set up. You download the [latest release](https://github.com/Assistant/ModAssistant/releases), and simply run the executable. It doesn't actually install anything, so keep that executable aside from your Downloads folder if you don't want to lose it.
-
-![ModAssistant Startup Screen](/images/2020-09-06-full-body-tracking/modassistant.png)
-
-I love some of the user-friendliness of this windows. Note the Game Version and the ModAssistant version tracked in the lower left. You have to click "I Agree", which will install the basic scaffolding (probably by overwriting certain DLLs/binaries). If nothing seems to be happening, you can click on the "Mods" icon on the left hand side. That brings up something similar to the following window:
-
-![ModAssistant Mods Screen](/images/2020-09-06-full-body-tracking/modassistant1.png)
-
-Perhaps non-intuitively, you want to click "Install or Update" which will install all the mods indicated by the Checked Boxes. It should then show the green installed version numbers. As you can tell there are some core libraries that are generally required for all the other mods; digging into the source code it seems like it provides a bunch of useful convenience methods for modders.
-
-An important caveat is that the Beat Saber releases change semi-frequently, and this seems to be a frequent source of breakage. I don't remember the last time I had to handle this, but if you are fine with wiping away your mods and starting fresh, you can do the following:
-
-- Open your Steam library, and uninstall Beat Saber. Note that this will not remove the modded content.
-- Navigate to your Beat Saber install directory and nuke the contents. This is usually `<your steam install folder>/steamapps/common/Beat Saber`.
-- Open up Steam again and isntall Beat Saber.
-- Repeat the above steps to reinstall mods.
-
-#### Setting up CameraPlus
-
-*If you're using this as a howto, skip to "__Goodbye Custom Mods; Hello LIV__"*
-
-CameraPlus is a Beat Saber mod to configure custom cameras (specifically for popular third-person cameras) to view the player in Beat Saber. It commonly is also used in tandem with Custom Avatars. Setting up CameraPlus is only partially intuitive. It's easy to install through [ModAssistant](https://github.com/Assistant/ModAssistant), as shown in the screenshot above, but it does take some finagling to get the view working as you intended. Some of the gotchas I ran into include:
-
-- The currently maintained source for CameraPlus is by [Snow1226](https://github.com/Snow1226/CameraPlus) not [xyonico](https://github.com/xyonico/CameraPlus) (the original author). Digging into commit history seems to show a change in maintainership a few times, but it's good to see that this is still actively being maintained for bugfixes and features.
-- CameraPlus uses the existing Desktop window screen to render its view. It turns out if you enable Smooth Camera, that overwrites the CameraPlus settings so you're stuck with still a first-person view. However infuriatingly, you don't notice until you record yourself in-game, since in the menu screens, CameraPlus appears to work perfectly.
-- Configuring the camera involves [watching a YouTube video](https://www.youtube.com/watch?v=RpYoMiKJygQ). If you are discovering CameraPlus through ModAssistant and bad Google SEO, you will not easily find any of these things.
-
-Once you have CameraPlus install, the way to configure it is from the Desktop Window of Beat Saber, not from within the VR headset. If you right-click on the window, the CameraPlus menu interface pops up and you can do things such as add/remove cameras, and switch between First-Person and Third-Person view.
-
-![CameraPlus Menu and Changing Perspectives](/images/2020-09-06-full-body-tracking/cameraplus-menu.gif)
-
-If you're not happy with the Third-Person camera view, you can put on the VR headset and move it around with your pointer. Hold the trigger to grab it, let go of the trigger to let it go.
-
-![CameraPlus Adjusting the Camera](/images/2020-09-06-full-body-tracking/cameraplus-camera-adjust.gif)
-
-At the end of the day, I didn't end up using CameraPlus for my streaming since I found LIV to be slightly easier to set up. But more on that later.
-
-#### Setting up Custom Avatars
-
-*If you're using this as a howto, skip to "__Goodbye Custom Mods; Hello LIV__"*
-
-The [Beat Saber Custom Avatars](https://github.com/nicoco007/BeatSaberCustomAvatars) mod is intended to pair with [CameraPlus](https://github.com/Snow1226/CameraPlus) to provide a representation of your person holding the sabers in-game. Unfortunately for some reason this isn't installed through [ModAssistant](https://github.com/Assistant/ModAssistant), so you have to follow the instructions yourself. Note you probably don't need to manually install [DynamicOpenVR](https://github.com/nicoco007/DynamicOpenVR/releases), since that is provided by ModAssistant. However you do need to download and install (read: extract the contents) of [Custom Avatars](https://github.com/nicoco007/BeatSaberCustomAvatars/releases) in your Beat Saber install directory, i.e. usually `<your steam install folder>/steamapps/common/Beat Saber`.
-
-At the time of this writing, there's actually [a bug](https://github.com/nicoco007/BeatSaberCustomAvatars/issues/58#issuecomment-676755378) with Custom Avatars, so check the thread and download the pre-release rc2 version to see if it fixes the bug for you (it did for me).
-
-Once the files are in, the left screen upon startup now has a Mods Tab with an Avatars section you can configure. From there you can choose the appropriate avatar you want to "wear". Note that the menu show Full-Body Tracking support, however the legs move really weird when we pick a Full-Body Avatar. That's because this is only using trackers on the headset and the controllers aka hands, and so the avatar "guesses" where your feet might want to be and move them appropriately.
-
-![Configuring Beat Saber Custom Avatar](/images/2020-09-06-full-body-tracking/beatsaber-custom-avatar-config.gif)
-
-There's one problem with using the Template Avatar and that's this:
-
-![Beat Saber playthrough using Template Avatar](/images/2020-09-06-full-body-tracking/beatsaber-boring.gif)
-
-#### Finding Avatars
-
-If you don't want to use the stock standard boring avatars, you should go look for [some online](https://bsaber.com/avatars/). Note that not all avatars support Full-Body Tracking, and actually if you are more savvy with 3D modeling software (e.g. Blender), there are a few guides out there, such as [this one](https://bs.assistant.moe/Avatars/). But if you're not into that, I recommend adding `tag:FBT` and `tag:Full Body Tracking` to refine your search results. I am currently using [Sour Miku Black v2](https://modelsaber.com/Avatars/?id=1564625718&pc).
-
-## Full-body Tracking
-
-Okay now we have some promising possibilities here with [CameraPlus](https://github.com/Snow1226/CameraPlus) and [Custom Avatars](https://github.com/nicoco007/BeatSaberCustomAvatars), however we are stuck with headset+hand tracking only with body interpolation and that's not cool. So how do we set up full-body tracking?
-
-#### Emulating Vive Trackers with Kinect
-
-*Note: this does not use LIV, and sets up virtual vive trackers using a Kinect. It probably is not what you want!*
-
-TBD, but it's gnarly.
-
-#### HTC Vive Trackers Setup
+## HTC Vive Trackers Setup
 
 You'll want three trackers, two for your feet and one for your waist. This is the typical setup for most Full-Body tracking situations. The trackers themselves only come with a camera mount for attachment, so it's up to you to figure out how to attach them to your person. I went ahead and bought the [TrackBelt straps](https://www.amazon.com/gp/product/B07DFBR6Y3) from Amazon and they work well enough. Note: despite the picture, the straps DO NOT come with trackers! Each Vive Tracker currently retails for $99 USD.
 
@@ -138,7 +67,7 @@ If you have lost track of Tracker A, B, etc. I recommend labeling your dongles a
 
 R = Right foot, L = Left food, W = Waist.
 
-## Goodbye Custom Mods; Hello LIV
+## Setting up LIV
 
 I spent a lot of time trying to get avatar setup with Beat Saber back in April 2020. At the time I was armed with only a Kinect, which provided emulated Vive trackers to try and make the feet and waist visible to Beat Saber Custom Avatar. All the results at the time were extremely poor; the avatar would twist itself/get mangled, which was just not a good look. I had to start thinking about moving soon after, so I dropped that project.
 
@@ -149,6 +78,8 @@ The [guide](https://guide.liv.tv/What-is-LIV-and-what-do-we-do-a1a2ba8313454e28a
 ![Disable Steam Room VR Mirroring](/images/2020-09-06-full-body-tracking/steam-vr-no-room.gif)
 
 Adding and configuring an avatar is very easy with LIV. I recommend for each new play session to re-calibrate your avatar to the trackers, since you're likely putting on the trackers slightly differently each time, and otherwise it will distort your avatar to viewers.
+
+If you don't want to use the stock standard boring avatars, you should go look for [some online](https://bsaber.com/avatars/). Note that not all avatars support Full-Body Tracking, and actually if you are more savvy with 3D modeling software (e.g. Blender), there are a few guides out there, such as [this one](https://bs.assistant.moe/Avatars/). But if you're not into that, I recommend adding `tag:FBT` and `tag:Full Body Tracking` to refine your search results. I am currently using [Sour Miku Black v2](https://modelsaber.com/Avatars/?id=1564625718&pc).
 
 ![Calibrating T-Pose of LIV Avatar](/images/2020-09-06-full-body-tracking/liv-calibrate-tpose.gif)
 
@@ -189,3 +120,70 @@ Overall this project happened over several hours of research distributed over se
 Good luck and happy VRing!
 
 ![Motion Capture of Miku Waving](/images/2020-09-06-full-body-tracking/miku.gif)
+
+
+---
+
+
+## PostScript: Things that didn't work, i.e. modding Beat Saber directly
+
+The first thought I had was trying to figure out how to get a third-person camera view working with Beat Saber. I had seen some folks demonstrate that capability on YouTube in the past, so I knew it was possible, and I figured it was through modding of some kind since modding is fairly popular in that community.
+
+#### ModAssistant
+
+There are a few different guides to aid first-time modders, including the [BSMG Wiki](https://bsmg.wiki/pc-modding.html) and [Beast Saber](https://bsaber.com/installing-the-mod-guide-necessary-for-any-custom-songs/); I used some combination of these guides. While many claim that you can technically set everything up manually, what you probably want to use is a piece of software called [ModAssistant](https://github.com/Assistant/ModAssistant). I was remarkably surprised at how easy this was to set up. You download the [latest release](https://github.com/Assistant/ModAssistant/releases), and simply run the executable. It doesn't actually install anything, so keep that executable aside from your Downloads folder if you don't want to lose it.
+
+![ModAssistant Startup Screen](/images/2020-09-06-full-body-tracking/modassistant.png)
+
+I love some of the user-friendliness of this windows. Note the Game Version and the ModAssistant version tracked in the lower left. You have to click "I Agree", which will install the basic scaffolding (probably by overwriting certain DLLs/binaries). If nothing seems to be happening, you can click on the "Mods" icon on the left hand side. That brings up something similar to the following window:
+
+![ModAssistant Mods Screen](/images/2020-09-06-full-body-tracking/modassistant1.png)
+
+Perhaps non-intuitively, you want to click "Install or Update" which will install all the mods indicated by the Checked Boxes. It should then show the green installed version numbers. As you can tell there are some core libraries that are generally required for all the other mods; digging into the source code it seems like it provides a bunch of useful convenience methods for modders.
+
+An important caveat is that the Beat Saber releases change semi-frequently, and this seems to be a frequent source of breakage. I don't remember the last time I had to handle this, but if you are fine with wiping away your mods and starting fresh, you can do the following:
+
+- Open your Steam library, and uninstall Beat Saber. Note that this will not remove the modded content.
+- Navigate to your Beat Saber install directory and nuke the contents. This is usually `<your steam install folder>/steamapps/common/Beat Saber`.
+- Open up Steam again and isntall Beat Saber.
+- Repeat the above steps to reinstall mods.
+
+#### Setting up CameraPlus
+
+CameraPlus is a Beat Saber mod to configure custom cameras (specifically for popular third-person cameras) to view the player in Beat Saber. It commonly is also used in tandem with Custom Avatars. Setting up CameraPlus is only partially intuitive. It's easy to install through [ModAssistant](https://github.com/Assistant/ModAssistant), as shown in the screenshot above, but it does take some finagling to get the view working as you intended. Some of the gotchas I ran into include:
+
+- The currently maintained source for CameraPlus is by [Snow1226](https://github.com/Snow1226/CameraPlus) not [xyonico](https://github.com/xyonico/CameraPlus) (the original author). Digging into commit history seems to show a change in maintainership a few times, but it's good to see that this is still actively being maintained for bugfixes and features.
+- CameraPlus uses the existing Desktop window screen to render its view. It turns out if you enable Smooth Camera, that overwrites the CameraPlus settings so you're stuck with still a first-person view. However infuriatingly, you don't notice until you record yourself in-game, since in the menu screens, CameraPlus appears to work perfectly.
+- Configuring the camera involves [watching a YouTube video](https://www.youtube.com/watch?v=RpYoMiKJygQ). If you are discovering CameraPlus through ModAssistant and bad Google SEO, you will not easily find any of these things.
+
+Once you have CameraPlus install, the way to configure it is from the Desktop Window of Beat Saber, not from within the VR headset. If you right-click on the window, the CameraPlus menu interface pops up and you can do things such as add/remove cameras, and switch between First-Person and Third-Person view.
+
+![CameraPlus Menu and Changing Perspectives](/images/2020-09-06-full-body-tracking/cameraplus-menu.gif)
+
+If you're not happy with the Third-Person camera view, you can put on the VR headset and move it around with your pointer. Hold the trigger to grab it, let go of the trigger to let it go.
+
+![CameraPlus Adjusting the Camera](/images/2020-09-06-full-body-tracking/cameraplus-camera-adjust.gif)
+
+At the end of the day, I didn't end up using CameraPlus for my streaming since I found LIV to be slightly easier to set up. But more on that later.
+
+#### Setting up Custom Avatars
+
+The [Beat Saber Custom Avatars](https://github.com/nicoco007/BeatSaberCustomAvatars) mod is intended to pair with [CameraPlus](https://github.com/Snow1226/CameraPlus) to provide a representation of your person holding the sabers in-game. Unfortunately for some reason this isn't installed through [ModAssistant](https://github.com/Assistant/ModAssistant), so you have to follow the instructions yourself. Note you probably don't need to manually install [DynamicOpenVR](https://github.com/nicoco007/DynamicOpenVR/releases), since that is provided by ModAssistant. However you do need to download and install (read: extract the contents) of [Custom Avatars](https://github.com/nicoco007/BeatSaberCustomAvatars/releases) in your Beat Saber install directory, i.e. usually `<your steam install folder>/steamapps/common/Beat Saber`.
+
+At the time of this writing, there's actually [a bug](https://github.com/nicoco007/BeatSaberCustomAvatars/issues/58#issuecomment-676755378) with Custom Avatars, so check the thread and download the pre-release rc2 version to see if it fixes the bug for you (it did for me).
+
+Once the files are in, the left screen upon startup now has a Mods Tab with an Avatars section you can configure. From there you can choose the appropriate avatar you want to "wear". Note that the menu show Full-Body Tracking support, however the legs move really weird when we pick a Full-Body Avatar. That's because this is only using trackers on the headset and the controllers aka hands, and so the avatar "guesses" where your feet might want to be and move them appropriately.
+
+![Configuring Beat Saber Custom Avatar](/images/2020-09-06-full-body-tracking/beatsaber-custom-avatar-config.gif)
+
+There's one problem with using the Template Avatar and that's this:
+
+![Beat Saber playthrough using Template Avatar](/images/2020-09-06-full-body-tracking/beatsaber-boring.gif)
+
+#### Emulating Vive Trackers with Kinect
+
+*Note: this does not use LIV, and sets up virtual vive trackers using a Kinect. It probably is not what you want!*
+
+TBD, but it's gnarly.
+
+

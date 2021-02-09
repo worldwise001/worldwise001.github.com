@@ -4,13 +4,13 @@ title: about
 ---
 ### whoami
 
-I am currently a software engineer doing security/privacy stuff in toronto (formerly bay area). My pronouns are she/her. I dislike photos of myself. I have strong opinions on software development and security/privacy but I value collaboration. I like really interesting and obscure facts, especially pertaining to cultural, culinary, linguistic, and unrelatedly, electronics/computer history.
+I am currently am engineering manager/lead of the privacy engineering team at Square, based in Toronto (formerly bay area). My pronouns are she/her. I dislike photos of myself. I have strong opinions on software development and security/privacy but I value collaboration. I like really interesting and obscure facts, especially pertaining to cultural, culinary, linguistic, and unrelatedly, electronics/computer history.
 
 ### fun stuff
 
 ![messy desk](/images/desk.jpg)
 
-For fun I work on hobbyist software projects, electronics and 3D printing. I also enjoy cooking and arts/crafts.
+For fun I work on hobbyist software projects, electronics and 3D printing. I also enjoy cooking, arts/crafts, and playing the accordion.
 
 Some current projects include building a service to analyze linkages between research papers, a nixie doom clock and some custom housing for the timelapse cameras for my 3D printer. In the future when everything reopens, I intend to document my dad's expertise and work on restoring old TVs/radios.
 

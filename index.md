@@ -4,7 +4,7 @@ title: about
 ---
 ### whoami
 
-I am currently am engineering manager/lead of the privacy engineering team at Square, based in Toronto (formerly bay area). My pronouns are she/her. I dislike photos of myself. I have strong opinions on software development and security/privacy but I value collaboration. I like really interesting and obscure facts, especially pertaining to cultural, culinary, linguistic, and unrelatedly, electronics/computer history.
+I am a tech person, doing security/privacy things, based in Toronto (formerly bay area). My pronouns are she/her. I dislike photos of myself. I have strong opinions on software development and security/privacy but I value collaboration. I like really interesting and obscure facts, especially pertaining to cultural, culinary, linguistic, and unrelatedly, electronics/computer history.
 
 ### fun stuff
 
@@ -37,16 +37,25 @@ I'm already paid pretty well but if you want to chip in to help support some of 
 
 ### work stuff
 
-I wear, or have worn, a number of hats. My title is Security Engineer, but I frequently jump into devops or devsecops or secops or SRE problems. Outside of writing software day to day, my responsibilities also include designing software systems, evaluating security systems and processes, mentoring and advising engineers, and interviewing/screening possible candidates. I am fairly flexible on the tech stack, having experience in the following:
+I wear, or have worn, a number of hats. My current title is Engineering Manager, but in the past I've jumped into software engineering, security/secops, and devops/SRE problems. I no longer write software day to day; previously my responsibilities included designing software systems and evaluating security systems and processes, and I still on occasion pull on that skillset. In general I provide roadmap leadership/guidance, grow careers, mentor and advise engineers, and interview/screen possible candidates on a variety of axes including programming, security, privacy, leadership, and communication skillsets.
+
+I am fairly flexible on the tech stack, having experience in the following:
 - writing/modifying Linux drivers
 - writing operating system core software
 - writing highly reliable backend services
 - machine learning research
 - scaling data pipelines
 - web/frontend development
-- some minor exploits
+- some minor exploits (including participating in CTFs)
 - administering Linux servers/systems
 - administering PKIs
+
+I also love conferences and meetups:
+- I have experience organizing 100-150-person LAN party events (including handling sponsors and marketing)
+- I have experience recruiting, managing, and supervising 200-300 volunteers at 2200+-participant security cons (BSidesSF).
+- I'm a reasonably accomplished technical speaker (including Grace Hopper and USENIX Enigma)
+- I frequently am in the role of MC/organizer of small events (company-internal meetups)
+- No one yet has asked me to keynote or MC larger meetups ;)
 
 My research focus in a past life has been on privacy problems relating to big data, namely things like: stylometry and profile-linking problems. I am currently interested in data tracing and protection problems; specifically interested in user credential propagation, and scalable access control techniques on a per-field level as opposed to per-table, per-operation, or per-database level. I am also interested in scalable data identification and redaction techniques, which I find akin on the same difficult as spam identification problems.
 

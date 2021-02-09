@@ -20,8 +20,6 @@ I have [cat(s)](https://www.instagram.com/shh_furbabies).
 
 I run some [Tor relays](/tor/).
 
-I'm already paid pretty well but if you want to chip in to help support some of this infrastructure/work, you can throw a dollar over on [Patreon](https://www.patreon.com/worldwise001).
-
 ### what am i up to
 
 {% for post in site.posts limit:1 %}

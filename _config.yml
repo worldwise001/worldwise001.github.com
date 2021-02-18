@@ -2,8 +2,6 @@ remote_theme: jekyll/minima
 
 title: shh.sh
 author: worldwise001
-description: >
-  My personal site for documenting building and tinkering with electronics, computers and software.
 
 #show_excerpts: true # set to true to show excerpts on the homepage
 
@@ -23,9 +21,8 @@ minima:
 # this and add the path to the pages in order as they should show up
 header_pages:
  - index.md
- - guides.md
+ - dict.md
  - log/index.html
- - snippets.md
  - tor.md
  - pubs.md
 

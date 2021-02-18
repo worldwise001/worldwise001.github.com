@@ -22,9 +22,10 @@ minima:
 header_pages:
  - index.md
  - dict.md
- - log/index.html
  - tor.md
  - pubs.md
+ - about.md
+# - log/index.html
 
 paginate: 5
 paginate_path: "/log/page:num/"

@@ -1,8 +1,10 @@
 ---
-layout: page
+author: worldwise001
+layout: post
 title: Starting a career in tech
-permalink: /guides/career-tech-start/
+description: I've given this sort of pep talk to a bunch of newly joined womeng at Square, to the point where I've just decided to sit down and write all that stuff in one document. I'll add a disclaimer that this is very engineering-focused, and may not apply to all other companies, but I think whether or not some of these things apply is indicative of the maturity level of HR/promotion processes at a company. With that said, let's dive in.
 ---
+
 
 I've given this sort of pep talk to a bunch of newly joined womeng at Square, to the point where I've just decided to sit down and write all that stuff in one document. I'll add a disclaimer that this is very engineering-focused, and may not apply to all other companies, but I think whether or not some of these things apply is indicative of the maturity level of HR/promotion processes at a company. With that said, let's dive in.
 

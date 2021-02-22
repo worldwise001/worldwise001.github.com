@@ -14,7 +14,7 @@ permalink: /dict/
 * [The Curious Case of Python, Catalina, Snowflake, and Abort Trap 6](/2020/01/04/python-abort-trap-6.html)
 * [One Woman Infrastructure - Keeping Things Up to Date](/2021/02/20/one-woman-infra-1.html)
 
-## Fun Computesr
+## Fun Computers
 * [Streaming with Full-Body Tracking in VR](/2020/09/16/full-body-tracking.html)
 
 ## Text Analysis

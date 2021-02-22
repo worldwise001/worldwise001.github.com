@@ -8,14 +8,23 @@ permalink: /dict/
 * [Security/Privacy resources](/2019/09/30/introsec.html)
 * [Starting a career in tech](/2019/12/14/career-tech-start.html)
 
-## Software Development
+## Computers
 * [Git in 5 seconds](/2019/03/08/git.html)
 * [Using your YubiKey to enable secure software development](/2019/07/26/yubikey.html)
 * [The Curious Case of Python, Catalina, Snowflake, and Abort Trap 6](/2020/01/04/python-abort-trap-6.html)
+* [One Woman Infrastructure - Keeping Things Up to Date](/2021/02/20/one-woman-infra-1.html)
+
+## Fun Computesr
+* [Streaming with Full-Body Tracking in VR](/2020/09/16/full-body-tracking.html)
 
 ## Text Analysis
 * [Baby ML](/2019/04/04/baby-ml.html)
 * [E-mail Adventures Part 1](/2019/06/04/email-1.html)
+
+## Snippets
+* [Webnotice to ics](https://github.com/worldwise001/webnotice_ics)
+* ArchLinux server maintenance scripts: [autoupdate.sh](https://gist.github.com/worldwise001/fc16223a7b79c7db676b), [cert_renewal.sh](https://gist.github.com/worldwise001/a4582bc33609855afb38b3846fc89423)
+* [bashrc](https://gist.github.com/worldwise001/6a406388cbfb77ad68c4d6333d3674a7), [screenrc](https://gist.github.com/worldwise001/b4dd557d12f5c4ae7234918fca351779), etc.
 
 ## Maker Stuff
 * [Indoor Growing Project - Part 1](/2018/02/11/indoor-growing-project-part-1.html)
@@ -34,10 +43,3 @@ permalink: /dict/
 * [ADABOX 012](/2019/07/12/adabox-12.html)
 * [Printer mods](/2019/09/03/octoprint-5.html)
 
-## Computers
-* [Streaming with Full-Body Tracking in VR](/2020/09/16/full-body-tracking.html)
-
-## Snippets
-* [Webnotice to ics](https://github.com/worldwise001/webnotice_ics)
-* ArchLinux server maintenance scripts: [autoupdate.sh](https://gist.github.com/worldwise001/fc16223a7b79c7db676b), [cert_renewal.sh](https://gist.github.com/worldwise001/a4582bc33609855afb38b3846fc89423)
-* [bashrc](https://gist.github.com/worldwise001/6a406388cbfb77ad68c4d6333d3674a7), [screenrc](https://gist.github.com/worldwise001/b4dd557d12f5c4ae7234918fca351779), etc.

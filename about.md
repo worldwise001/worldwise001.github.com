@@ -4,11 +4,11 @@ title: about
 ---
 ### whoami
 
-I am a tech person, doing security/privacy things, based in Toronto (formerly bay area). My pronouns are she/her. I dislike photos of myself. I have strong opinions on software development and security/privacy but I value collaboration. I like really interesting and obscure facts, especially pertaining to cultural, culinary, linguistic, and unrelatedly, electronics/computer history.
+I'm an engineering manager in privacy engineering, part of a security org. I'm based out of Toronto now, but I used to be in SFBay.
+
+I also sometimes do video games, cook, or art, but these days have been playing a lot of accordion.
 
 ### work stuff
-
-I wear, or have worn, a number of hats. My current title is Engineering Manager, but in the past I've jumped into software engineering, security/secops, and devops/SRE problems. I no longer write software day to day; previously my responsibilities included designing software systems and evaluating security systems and processes, and I still on occasion pull on that skillset. In general I provide roadmap leadership/guidance, grow careers, mentor and advise engineers, and interview/screen possible candidates on a variety of axes including programming, security, privacy, leadership, and communication skillsets.
 
 I am fairly flexible on the tech stack, having experience in the following:
 - writing/modifying Linux drivers
@@ -17,20 +17,36 @@ I am fairly flexible on the tech stack, having experience in the following:
 - machine learning research
 - scaling data pipelines
 - web/frontend development
-- some minor exploits (including participating in CTFs)
 - administering Linux servers/systems
-- administering PKIs
+
+I am an engineering manager right now, so I also have experience in the following:
+- managing junior and senior engineers so far with a max of 7 reports
+- coaching and career growth towards subsequent promotions
+- creating, evaluating, and updating interview panels and rubrics
+- interviewing interns, newgrads, senior engineers, consultants, project managers, engineering managers, and directors (to date I have conducted at least 200+ interviews)
+- developing long-term engineering/technical strategy and roadmap
+- developing, evaluating, and improving team and organizational processes
+- organizing and running sprints, standups, team meetings, hackweeks, operational reviews, OKRs, etc.
+- fostering cross-team collaborations across platform, product, and legal teams, etc.
+- spreadsheets (primarily google sheets with google apps scripts)
+
+I have random other skills/knowledge that are specifically relevant to security sometimes:
+- vendor security assessments (including reading through SOC2 and PCI reports)
+- PCI PIN management
+- some minor exploits (including participating in CTFs)
+- administering PKIs with HSMs
+- incident response and postmortems
 
 I also love conferences and meetups:
 - I have experience organizing 100-150-person LAN party events (including handling sponsors and marketing)
-- I have experience recruiting, managing, and supervising 200-300 volunteers at 2200+-participant security cons (BSidesSF).
-- I'm a reasonably accomplished technical speaker (including Grace Hopper and USENIX Enigma)
+- I have experience recruiting, managing, and supervising 200-300 volunteers at 2200+-participant security cons (BSidesSF)
+- I ran a 300-person workshop on how to get involved in CTFs that was well received (Grace Hopper)
+- I have given some talks (including Grace Hopper and USENIX Enigma)
 - I frequently am in the role of MC/organizer of small events (company-internal meetups)
-- No one yet has asked me to keynote or MC larger meetups ;)
 
-My research focus in a past life has been on privacy problems relating to big data, namely things like: stylometry and profile-linking problems. I am currently interested in data tracing and protection problems; specifically interested in user credential propagation, and scalable access control techniques on a per-field level as opposed to per-table, per-operation, or per-database level. I am also interested in scalable data identification and redaction techniques, which I find akin on the same difficult as spam identification problems.
+I still have mild research interests related to privacy and text analysis (NLP). I used to do location privacy and stylometry research.
 
-You can see my full work history [as a resume](/resume.pdf) or on [LinkedIn](https://www.linkedin.com/in/shharvey).
+You can see my (out-of-date) work history [as a resume](/resume.pdf) or on [LinkedIn](https://www.linkedin.com/in/shharvey).
 
 ### contact
 

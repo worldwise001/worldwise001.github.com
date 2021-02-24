@@ -8,19 +8,19 @@ I like speaking, and less so writing. Feel free to reach out if you are looking 
 
 ### bio
 
-Sarah is a software engineer on a privacy engineering team at Square. Her background includes 4+ years of industry experience in security/privacy infrastructure design and engineering, and 4 years of academic privacy research. Some project highlights include: designing and building simpler purpose-driven access controls for dataset access by analysts; designing and building new egress controls linked to vendor contracts and migrating the whole engineering org of 100+ teams to this system; and otherwise working with and maintaining various secrets management and payments cryptography services at scale at Square. Her current focus is designing and building security and privacy visibility tools to aid in risk modeling and development of new access control mechanisms.
+Sarah is the engineering lead for the privacy engineering team at Square. Her background includes 10+ years of security/privacy infrastructure design, engineering, and research. Her current focus is in researching and designing security and privacy visibility tools to aid in risk modeling and development of new privacy-enhancing infrastructure.
 
-She's also given various talks about these topics. For fun, she is one of the lead organizers of BSidesSF, a local 2000+attendee security con in San Francisco.
-
-She can be followed for cats and tech humor on Twitter: @worldwise001.
+She can be followed for cats and tech humor on Twitter: [@worldwise001](https://www.twitter.com/worldwise001).
 
 ### talk list
 
 #### Upcoming
 
+* Send me a tweet or an e-mail if you want to invite me on as a speaker!
+
 #### 2020
 
-* [USENIX Enigma - TBD](/cfp/enigma2020)
+* USENIX Enigma - [Third-Party Integrations: Friend or Foe?](https://www.youtube.com/watch?v=yrfQeVaLWws) [(CFP submission)](/cfp/enigma2020)
 
 #### 2019
 

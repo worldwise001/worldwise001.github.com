@@ -46,7 +46,7 @@ I also love conferences and meetups:
 
 I still have mild research interests related to privacy and text analysis (NLP). I used to do location privacy and stylometry research.
 
-You can see my (out-of-date) work history [as a resume](/resume.pdf) or on [LinkedIn](https://www.linkedin.com/in/shharvey).
+You can see my work history [as a resume](/resume.pdf) or on [LinkedIn](https://www.linkedin.com/in/shharvey).
 
 ### contact
 

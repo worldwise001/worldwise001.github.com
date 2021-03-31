@@ -15,7 +15,7 @@ permalink: /dict/
 * [One Woman Infrastructure - Keeping Things Up to Date](/2021/02/20/one-woman-infra-1.html)
 
 ## Fun Computers
-* [Streaming with Full-Body Tracking in VR](/2020/09/16/full-body-tracking.html)
+* [Streaming with Full-Body Tracking in VR](/2020/09/06/full-body-tracking.html)
 
 ## Text Analysis
 * [Baby ML](/2019/04/04/baby-ml.html)

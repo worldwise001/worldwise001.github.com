@@ -32,11 +32,18 @@ Isn't a standard ATX board 8" x 12" ? Hmmmm 12" < 13". What if I could build a c
 
 I didn't want to quite rush in until I got a good sense of whether this idea was actually possible, so it was time to do some 3D mockups to get a visual/spatial sense of all the components. I used my favorite tool, SketchUp. I'm not yet good at 3D modeling/designing, so I searched on the 3D warehouse for some example motherboards, and searched for a video card and a PSU, and tried piecing some things together in a 13" cube.
 
+![sketchup.gif](/images/2021-04-15-kallax-computer/sketchup.gif)
+
+Okay this might work!
+
 ### Parts/Cost List
 
 Most of the parts were in USD; some I bought in CAD so I did a rough conversion based on the exchange rate at the time of this post, which was $1.25 CAD : $1 USD. I didn't include tax/shipping/import fees, but I will note that due to the fact I live in Canada, that ended up being a large percentage of the overall cost, at roughly $250 CAD.
 
 #### Computer
+
+- [ASUS ROG CROSSHAIR VIII HERO (WI-FI)](https://rog.asus.com/ca-en/motherboards/rog-crosshair/rog-crosshair-viii-hero-wi-fi-model/) - $400 USD
+-
 
 #### Frame
 

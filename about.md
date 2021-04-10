@@ -11,12 +11,12 @@ I also sometimes do video games, cook, or art, but these days have been playing 
 ### work stuff
 
 I am fairly flexible on the tech stack, having experience in the following:
-- writing/modifying Linux drivers
-- writing operating system core software
-- writing highly reliable backend services
-- machine learning research
-- scaling data pipelines
-- web/frontend development
+- writing/modifying Linux drivers (mac80211 to measure channel switching speeds)
+- writing operating system core software (poked at TSS stack on chromeos)
+- writing highly reliable backend services (Java payments/PKI stack)
+- machine learning research (custom classifiers in C)
+- scaling data pipelines (AWS EMR)
+- web/frontend development (React)
 - administering Linux servers/systems
 
 I am an engineering manager right now, so I also have experience in the following:
@@ -32,9 +32,9 @@ I am an engineering manager right now, so I also have experience in the followin
 
 I have random other skills/knowledge that are specifically relevant to security sometimes:
 - vendor security assessments (including reading through SOC2 and PCI reports)
-- PCI PIN management
+- PCI PIN management (key manager overseeing key provisioning + audits)
 - some minor exploits (including participating in CTFs)
-- administering PKIs with HSMs
+- administering PKIs with HSMs (ncipher native and PKCS11, payshield)
 - incident response and postmortems
 
 I also love conferences and meetups:
@@ -44,7 +44,7 @@ I also love conferences and meetups:
 - I have given some talks (including Grace Hopper and USENIX Enigma)
 - I frequently am in the role of MC/organizer of small events (company-internal meetups)
 
-I still have mild research interests related to privacy and text analysis (NLP). I used to do location privacy and stylometry research.
+I still have mild research interests related to privacy and text analysis (NLP). I used to do location privacy and stylometry research (sorry, I wasn't good enough to get papers published).
 
 You can see my work history [as a resume](/resume.pdf) or on [LinkedIn](https://www.linkedin.com/in/shharvey).
 

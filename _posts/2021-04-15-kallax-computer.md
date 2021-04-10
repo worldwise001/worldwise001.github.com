@@ -4,7 +4,11 @@ layout: post
 title: Kallax Computer Build
 ---
 
-![summary.jpg](/images/2021-04-15-kallax-computer/summary.jpg)
+![kallax-meme.jpg](/images/2021-04-15-kallax-computer/kallax-meme.jpg)
+
+If you want the parts list, scroll to the very bottom of the post.
+
+### The Problem
 
 So the other day (by which I mean several months ago) I bought this beautiful [absolute unit](https://www.ikea.com/ca/en/p/kallax-shelf-unit-white-70301537/) to serve as my backdrop (but also to hold stuff). If you are unfamiliar with what this looks like, it looks like this:
 
@@ -24,8 +28,18 @@ So ok, probably time to build a new computer, but price-gouges are happening for
 
 Isn't a standard ATX board 8" x 12" ? Hmmmm 12" < 13". What if I could build a computer _inside a kallax compartment_???
 
-...I have such terrible ideas.
+### Proof of Concept
 
-### This can't be possible
+I didn't want to quite rush in until I got a good sense of whether this idea was actually possible, so it was time to do some 3D mockups to get a visual/spatial sense of all the components. I used my favorite tool, SketchUp. I'm not yet good at 3D modeling/designing, so I searched on the 3D warehouse for some example motherboards, and searched for a video card and a PSU, and tried piecing some things together in a 13" cube.
 
-The problem with an earworm of a terrible idea is that it is just so ludicrous that you want to kinda discount it
+### Parts/Cost List
+
+Most of the parts were in USD; some I bought in CAD so I did a rough conversion based on the exchange rate at the time of this post, which was $1.25 CAD : $1 USD. I didn't include tax/shipping/import fees, but I will note that due to the fact I live in Canada, that ended up being a large percentage of the overall cost, at roughly $250 CAD.
+
+#### Computer
+
+#### Frame
+
+#### Water Cooling
+
+#### Misc

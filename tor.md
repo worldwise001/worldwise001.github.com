@@ -15,7 +15,6 @@ compromised.
 ### Currently maintained Tor Relays
 
 1. [as16276.tor.shh.sh](https://metrics.torproject.org/rs.html#details/39F096961ED2576975C866D450373A9913AFDC92) - 198.50.191.95 (non-exit, fallback directory)
-1. [as12876.tor.shh.sh](https://metrics.torproject.org/rs.html#details/D7082DB97E7F0481CBF4B88CA5F5683399E196A3) - 212.83.166.62 (exit)
 
 ### What is Tor?
 
@@ -101,7 +100,3 @@ determine if a given IP address is actually a Tor exit server. Please
 be considerate
 when using these options. It would be unfortunate to deny all Tor users access
 to your site indefinitely simply because of a few bad apples.
-
-### Support
-
-If you want to help support the running of high-bandwidth tor infrastructure, feel free to contribute on [Patreon](https://www.patreon.com/join/worldwise001/checkout?rid=5169021)

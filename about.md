@@ -38,7 +38,7 @@ I have random other skills/knowledge that are specifically relevant to security 
 - incident response and postmortems
 
 I also love conferences and meetups:
-- I have experience organizing 100-150-person LAN party events (including handling sponsors and marketing)
+- I have experience organizing [100-150-person LAN party events](https://dailyegyptian.com/13059/uncategorized/rso-unites-gamers-and-children-with-salukilan/) (including handling sponsors and marketing)
 - I have experience recruiting, managing, and supervising 200-300 volunteers at 2200+-participant security cons (BSidesSF)
 - I ran a 300-person workshop on how to get involved in CTFs that was well received (Grace Hopper)
 - I have given some talks (including Grace Hopper and USENIX Enigma)

@@ -1,8 +1,10 @@
 ---
 layout: page
-title: index of content
-permalink: /dict/
+title: writings
+permalink: /writings/
 ---
+
+I tried to organize a bunch of things here. Some of it is old/could be improved. Everything is always WIP.
 
 ## Career Resources
 * [Security/Privacy resources](/2019/09/30/introsec.html)

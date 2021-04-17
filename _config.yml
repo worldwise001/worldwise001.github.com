@@ -21,8 +21,8 @@ minima:
 # this and add the path to the pages in order as they should show up
 header_pages:
  - index.md
- - dict.md
- - tor.md
+ - writings.md
+ - art.md
  - pubs.md
  - about.md
 # - log/index.html

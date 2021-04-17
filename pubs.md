@@ -12,6 +12,10 @@ She can be followed for cats and tech humor on Twitter: [@worldwise001](https://
 
 ### pubs list
 
+#### 2021
+
+* Presentation: [Anti-Privacy Anti-Patterns](https://bsidessf.org/news/2021/03/2021-sunday-schedule) (repeat). _[BSidesSF](https://www.bsidessf.org)_.
+
 #### 2020
 
 * Presentation: [Third-Party Integrations: Friend or Foe?](https://www.youtube.com/watch?v=yrfQeVaLWws) _[USENIX Enigma](https://www.usenix.org/enigma)_. [(CFP submission)](/cfp/enigma2020)
@@ -28,6 +32,7 @@ She can be followed for cats and tech humor on Twitter: [@worldwise001](https://
 
 * Hologram: "Our Time". _[GHC](https://ghc.anitab.org/)_.
 * Presentation: The (Security-centric) Woman's Guide To The Galaxy. _GDGSF IWD_.
+* Panel: [Security](https://blog.sentry.io/2018/08/15/sentry-scouts-security-recap). _Sentry Scouts_.
 * Lightning Talk: Differential Privacy. _(internal at Square)_.
 * Presentation: You Can’t Secure What You Can’t See. _sqr00t_.
 
@@ -40,11 +45,14 @@ She can be followed for cats and tech humor on Twitter: [@worldwise001](https://
 
 #### 2016
 
-* Panel: So You Want to Hack The Planet: Demystifying Careers and Opportunities in Cryptography, Security, and Privacy. _[GHC](https://ghc.anitab.org/)_.
+* Panel: [So You Want to Hack The Planet: Demystifying Careers and Opportunities in Cryptography, Security, and Privacy](https://ghc.anitab.org/he/2016/10/29/want-hack-planet-demystifying-careers-opportunities-cryptography-security-amp-privacy/). _[GHC](https://ghc.anitab.org/)_.
 
 #### 2015
 
 * Presentation: Protecting infrastructure secrets with Keywhiz. _CyberSec_.
+
+#### 2013
+* Presentation: [Why you should care about Security and Privacy](https://kwlug.org/node/899). _KWLUG_.
 
 #### 2011
 * Paper: [A Pre-Kernel Agent Platform for Security Assurance](https://ieeexplore.ieee.org/abstract/document/5953619). _2011 IEEE Symposium Series on Computational Intelligence_.
